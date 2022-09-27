@@ -15,6 +15,7 @@ import InterviewExp from "./pages/InterviewExp";
 import InterviewContext from "./context/InterviewContext";
 import InterviewDetail from "./components/InterviewDetail";
 import { PostInterview } from "./pages/PostInterview";
+import YoutubeGuide from "./pages/YoutubeGuide";
 function App() {
   return (
     <CourseContext>
@@ -46,6 +47,15 @@ function App() {
             element={
               <AppRoute>
                 <Courses />
+              </AppRoute>
+            }
+          />
+
+<Route
+            path="/youtubeguide"
+            element={
+              <AppRoute>
+                <YoutubeGuide />
               </AppRoute>
             }
           />
