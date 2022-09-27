@@ -158,7 +158,8 @@ ChannelList.map((ele)=>{
          </div>
          <div className="block mx-5">
           <h1 className='font-bold'>{ele.channel_name}</h1>
-          <h1>{ele.subscribers}</h1>
+          <h1 className='text-white/70'> {ele.domain}</h1>
+          <h1 className='text-sm' >{ele.subscribers}</h1>
 
          </div>
        </div>
